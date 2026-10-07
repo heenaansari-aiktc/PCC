@@ -17,7 +17,7 @@ int main() {
             printf("   Incorrect code! Try again.\n");
         }
     } while (password != 1234); // Repeats until code is correct
-    printf("   -> [Do-While]: Access Granted! Correct password entered.\n");
+    printf("Access Granted! Correct password entered.\n");
 
     return 0;
 }
