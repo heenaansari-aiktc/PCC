@@ -10,9 +10,9 @@ int main() {
 
     // if-else variant
     if (num % 2 == 0) {
-        printf("   -> [if-else]: The number %d is Even.\n", num);
+        printf("\n The number %d is Even.\n", num);
     } else {
-        printf("   -> [if-else]: The number %d is Odd.\n", num);
+        printf(\n The number %d is Odd.\n", num);
     }
 
     return 0;
