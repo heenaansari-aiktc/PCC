@@ -9,7 +9,7 @@ int main() {
     printf("=== PART A: CONDITIONAL STATEMENTS : if ===\n\n");
 
     // 1. Simple 'if' 
-    printf("Enter an integer to check if it's Positive/Negative");
+    printf("Enter an integer to check if it's Positive/Negative: ");
     scanf("%d", &num);
     
     // Simple if variant
