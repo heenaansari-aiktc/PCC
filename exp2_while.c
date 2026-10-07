@@ -13,12 +13,12 @@ int main() {
     // While Loop
     printf("\n Enter a starting number for a countdown using 'while' loop: ");
     scanf("%d", &count);
-    printf("   While Loop Countdown: ");
+    printf("\n While Loop Countdown: ");
     while (count > 0) {
         printf("%d ", count);
         count--; // Decrement condition
     }
-    printf(" Hooray! Countdown finished!!\n");
+    printf("\n Hooray! Countdown finished!!\n");
 
     return 0;
 }
