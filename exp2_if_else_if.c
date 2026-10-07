@@ -11,19 +11,19 @@ int main() {
     
 
     // 2. if-else-if Ladder
-    printf("\n2. Enter your marks (0-100) for grading: ");
+    printf("\n Enter your marks (0-100) for grading: ");
     scanf("%d", &marks);
 
     if (marks >= 90) {
-        printf("   -> [if-else-if]: Grade A+ (Outstanding)\n");
+        printf("\n Grade A+ (Outstanding)");
     } else if (marks >= 75) {
-        printf("   -> [if-else-if]: Grade A (Very Good)\n");
+        printf("\n Grade A (Very Good)");
     } else if (marks >= 60) {
-        printf("   -> [if-else-if]: Grade B (Good)\n");
+        printf("\n Grade B (Good)");
     } else if (marks >= 40) {
-        printf("   -> [if-else-if]: Grade C (Pass)\n");
+        printf("\n Grade C (Pass)");
     } else {
-        printf("   -> [if-else-if]: Grade F (Fail)\n");
+        printf("\n Grade F (Fail)\n");
     }
     return 0;
 }
