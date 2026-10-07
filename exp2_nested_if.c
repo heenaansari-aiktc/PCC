@@ -11,7 +11,7 @@ int main() {
 
 
     // 3. Nested 'if'
-    printf("\n3. Enter your age for voting eligibility: ");
+    printf("\n Enter your age for voting eligibility: ");
     scanf("%d", &age);
 
     if (age >= 18) {
@@ -21,12 +21,12 @@ int main() {
         scanf("%d", &hasID);
 
         if (hasID == 1) {
-            printf("   -> [Nested if]: You are eligible to vote!\n");
+            printf("\n You are eligible to vote!");
         } else {
-            printf("   -> [Nested if]: You are an adult, but need a Voter ID to vote.\n");
+            printf("\n You are an adult, but need a Voter ID to vote.");
         }
     } else {
-        printf("   -> [Nested if]: You are a minor and not eligible to vote.\n");
+        printf("\n You are a minor and not eligible to vote.");
     }
 
     return 0;
