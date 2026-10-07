@@ -12,16 +12,16 @@ int main() {
 
     switch (choice) {
         case 1:
-            printf("   -> [Switch]: You ordered a Burger. (Break executed)\n");
+            printf("\n You ordered a Burger.");
             break; // Exits the switch block
         case 2:
-            printf("   -> [Switch]: You ordered a Pizza. (Break executed)\n");
+            printf("\n You ordered a Pizza.");
             break;
         case 3:
-            printf("   -> [Switch]: You ordered Pasta. (Break executed)\n");
+            printf("\n You ordered Pasta.");
             break;
         default:
-            printf("   -> [Switch]: Invalid choice entered!\n");
+            printf("\n Invalid choice entered!");
             break;
     }
 
