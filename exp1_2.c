@@ -30,6 +30,7 @@ int main(){
     printf("\n num1 & num2 = %d", num1&num2);
      printf("\n num1 | num2 = %d", num1|num2);
      printf("\n num1 ^ num2 = %d", num1^num2);
+     printf("\n ~num1 = %d", ~num1);
      printf("\n num1 left shift by 1 %d", num1 <<1);
      printf("\n num1 right shift by 1 %d", num1 >> 1);
     
