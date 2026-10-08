@@ -22,7 +22,7 @@ int main(){
     //LOGICAL OPERATORS
     printf("\n Logical operators");
     printf("\n (num1>0) && (num2<10) = %d",((num1>0) && (num2<10)));
-    printf("\n (num1>0) || (num2<10) = %d",((num1>0) && (num2<10)));
+    printf("\n (num1>0) || (num2<10) = %d",((num1>0) || (num2<10)));
     printf("\n !(num1>num2) = %d",(!(num1>num2)));
 
     //Bitwise operators
