@@ -27,11 +27,11 @@ int main(){
 
     //Bitwise operators
 
-    printf("\nnum1 & num2 = %d", num1&num2);
-     printf("\nnum1 | num2 = %d", num1|num2);
-     printf("\nnum1 ^ num2 = %d", num1^num2);
-     printf("\nnum1 left shift by 1 %d", num1 <<1);
-     printf("\nnum1 right shift by 1 %d", num1 >> 1);
+    printf("\n num1 & num2 = %d", num1&num2);
+     printf("\n num1 | num2 = %d", num1|num2);
+     printf("\n num1 ^ num2 = %d", num1^num2);
+     printf("\n num1 left shift by 1 %d", num1 <<1);
+     printf("\n num1 right shift by 1 %d", num1 >> 1);
     
 
     return 0;
