@@ -15,7 +15,7 @@ int main(){
     printf("\n Equal Equals %d == %d : %d", num1,num2,num1==num2);
     printf("\n Not Equals %d != %d : %d", num1,num2, num1!=num2);
     printf("\n Less than %d < %d : %d", num1,num2, num1<num2);
-    printf("\n Greater than %d < %d : %d", num1,num2, num1>num2);
+    printf("\n Greater than %d > %d : %d", num1,num2, num1>num2);
     printf("\n Less than Equal to %d <= %d : %d", num1,num2, num1<=num2);
     printf("\n Greater than Equal to %d >= %d : %d", num1,num2, num1>=num2);
     
