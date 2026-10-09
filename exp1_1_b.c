@@ -20,3 +20,10 @@ int main(){
 }
 //compile command : gcc exp1_1_b.c -o exp1_1_b
 //run command: ./exp1_1_b
+
+/**
+Note:
+In the printf function, you need to use %% because 
+the single percent sign % is reserved as a special escape character to start format specifiers (like %d or %s), 
+so a second % is required to escape it and print a literal percentage sign
+*/
