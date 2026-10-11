@@ -6,8 +6,11 @@ int main() {
 
     // =======================================================
     // PART B: Looping Statements while
+    // Write a C program that asks the user for a starting number 
+    // and uses a while loop to print a countdown down to 1, ending with the message "Hooray! Countdown finished!!"
     // =======================================================
-    printf("\n=== PART B: LOOPING STATEMENTS - while ===\n\n");
+    
+    printf("\n===LOOPING STATEMENTS - while ===\n\n");
 
 
     // While Loop
