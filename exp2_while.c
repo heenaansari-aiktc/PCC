@@ -10,9 +10,6 @@ int main() {
     // and uses a while loop to print a countdown down to 1, ending with the message "Hooray! Countdown finished!!"
     // =======================================================
     
-    printf("\n===LOOPING STATEMENTS - while ===\n\n");
-
-
     // While Loop
     printf("\n Enter a starting number for a countdown using 'while' loop: ");
     scanf("%d", &count);
