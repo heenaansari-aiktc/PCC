@@ -6,9 +6,9 @@ int main() {
     // =======================================================
     // Looping Statements (for)
     // =======================================================
-    printf("\n=== PART B: LOOPING STATEMENTS - FOR loop ===\n\n");
 
-    // 1. For Loop
+    //For Loop : Write a C program that asks the user for a number N and uses a for loop to print all numbers from 1 to N
+    
     printf("\n Enter a number (N) to print numbers from 1 to N using 'for' loop: ");
     scanf("%d", &n);
     printf("\n For Loop Output: ");
