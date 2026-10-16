@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main(){
     int arrLength, choice;
-
-    input_label:
     printf("\n Enter the length of the array:");
     scanf("%d", &arrLength);
 
