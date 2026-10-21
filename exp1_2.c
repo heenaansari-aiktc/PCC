@@ -2,10 +2,10 @@
 int main(){
     //a) Read two integer values from the user.
     int num1, num2;
-    printf("\n Enter first interger:");
+    printf("\n Enter first integer:");
     scanf("%d", &num1);
 
-    printf("\n Enter second interger:");
+    printf("\n Enter second integer:");
     scanf("%d", &num2);
 
     //Demonstrate relational operators (==, !=, <, >, <=,>=) by comparing the two values.
