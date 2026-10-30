@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int arrLength, choice, max, min,i;
+    int arrLength, choice, max, min,i, sum, avg;
 
     input_label:
     printf("\n Enter the length of the array:");
@@ -53,6 +53,16 @@ int main(){
                             }
                     }
                     printf("\n Min = %d & Max = %d", min,max);
+                    break;
+                case 3:
+                    //CACULATE THE SUM AND AVERAGE
+                    sum=0;
+                    for(i=0 ; i< arrLength; i++){
+                        sum = sum + arr[i];
+                    }
+                    avg = sum / arrLength;
+                    printf("\n Sum = %d and Average = %d", sum, avg);
+                    break;
                 default:
                     printf("\n Enter a valid choice.");
             }
