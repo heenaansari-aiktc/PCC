@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int arrLength, choice, max, min,i, sum, avg;
+    int arrLength, choice, max, min,i, sum, avg, temp, key, keyIndex;
+
 
     input_label:
     printf("\n Enter the length of the array:");
@@ -62,6 +63,48 @@ int main(){
                     }
                     avg = sum / arrLength;
                     printf("\n Sum = %d and Average = %d", sum, avg);
+                    break;
+                case 4:
+                    //HW- linear search - first occurence
+                    keyIndex = -1;
+                    printf("\n Enter the key value to be searched: ");
+                    scanf("%d", &key);
+
+                    for(i=0; i < arrLength; i++){
+                        if(arr[i] == key){
+                            keyIndex =  i;
+                            break;
+                        }
+                    }//for loop ends
+
+                    if(keyIndex == -1){
+                        printf("\n %d is not present in array", key);
+                    } else {
+                        printf("\n %d is at index %d", key, keyIndex);
+                    }
+
+
+                    break;
+                case 5:
+                printf("\n in case 5");
+                    //REVERSE AN ARRAY
+                    int start = 0; //start index of array
+                    int end = arrLength - 1; // intialize with last index of array
+                    printf("\n Start %d", start);
+                        printf("\n End %d", end);
+
+                    while(start < end){
+                        temp = arr[start];
+                        arr[start] = arr[end];
+                        arr[end] = temp;
+                        start++;
+                        end--;
+                    }
+
+                    printf("\n Displaying the reverse of array: ");
+                        for(i=0; i<arrLength; i++){
+                            printf("\t %d", arr[i]);
+                        }
                     break;
                 default:
                     printf("\n Enter a valid choice.");
